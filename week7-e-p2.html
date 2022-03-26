@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Week 3 ePortfolio part 2</title>
+	<style type="text/css">
+		body{border: 1px solid deepskyblue; padding-bottom: 41px;}
+		table{border: none; padding: 10px; margin: auto;}
+		h3{text-align: center;}
+		tr{border: none;}
+		td{padding: 11px;}
+		input[type^="text"],input[type^="email"],input[type^="Date"],input[type^="time"],input[type^="number"]{flex-grow: 1;}
+		.first8{width: 400px;}
+		tr>td:nth-child(2){display: flex;}
+
+	</style>
+</head>
+<body>
+<h3>Registration for Covid-19 Volunteer - &#174; C19-Team</h3>
+<form method="" action="">
+<table>
+	<tr>
+		<td class="first8">Fullname</td>
+		<td><input maxlength="30" type="text" name="Fullname"></td>
+	</tr>
+	<tr>
+		<td class="first8">Email</td>
+		<td><input type="email" name="Email"></td>
+	</tr>
+	<tr>
+		<td class="first8">Date you can start</td>
+		<td><input type="date" name="date"></td>
+	</tr>
+	<tr>
+		<td class="first8">Morning shift preference</td>
+		<td><input type="time" name="amshifttime"></td>
+	</tr>
+	<tr>
+		<td class="first8">Evening shift preference</td>
+		<td><input type="time" name="pmshifttime"></td>
+	</tr>
+	<tr>
+		<td class="first8">How many hours you can work? In multiple of 3</td>
+		<td><input min="3" max="9" type="number" name="workhours"></td>
+	</tr>
+	<tr>
+		<td class="first8">Distance you willing to commute to volunteer center?</td>
+		<td>1<input min="1" max="15" type="range" name="dstnce">15</td>
+	</tr>
+	<tr>
+		<td class="first8">You currency perference for payment?</td>
+		<td><input type="radio" name="currency">£ <input type="radio" name="currency">¥ <input type="radio" name="currency">€</td>
+	</tr>
+	<tr >
+		<td colspan="2" align="center"><textarea id="adress" name="adress" rows="6" cols="40" placeholder="Type your home adress"></textarea></td>
+	</tr>
+	<tr>
+		<td colspan="2" align="center"><s>You will be given daily meals</s></td>
+	</tr>
+	<tr>
+		<td colspan="2" align="center"><input type="checkbox" name="tnc">I agree to all terms and conditions.</td>
+	</tr>
+	<tr>
+		<td colspan="2" align="center">Prove you are not robot: 10 < 20?<input type="checkbox" name="botcheck"></td>
+	</tr>
+	<tr>
+		<td colspan="2" align="center"><input type="submit" name="" value="Volunteer now!"></td>
+	</tr>
+	<tr>
+		<td colspan="2" align="center"><input type="reset" name="" value="Start over"></td>
+	</tr>
+	<tr>
+		<td colspan="2" align="center">For more information, visit MOH <a href="https://www.moh.gov.bn/Pages/Home.aspx">website</a></td>
+	</tr>
+
+</table>
+</form>
+</body>
+</html>
